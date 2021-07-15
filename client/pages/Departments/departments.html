@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="FACTORY project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="FACTORY | Departments">
+	<meta property="og:type" content="website">
+	<link rel="stylesheet" href="../../css/normalize.css">
+	<link rel="stylesheet" href="../../css/main.css">
+	<meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+	<div class="app">
+		<header>
+			<div class="navbar">
+				<h4 id="nameDisplay"></h4>
+				<button class="primaryButton" type="button" style="width: 120px;" id="logoutButton"> Logout
+				</button>
+			</div>
+		</header>
+		<div style="margin-top: 200px">
+			<div style="width: 100%">
+				<button id="addDepButton" type="button" style="width: 228px; margin-left: auto"> Add
+					Department </button>
+			</div>
+			<table id="departmentsTable">
+				<thead>
+					<tr>
+						<th>Department ID</th>
+						<th>NAME</th>
+						<th>Manager ID</th>
+						<th>Edit</th>
+						<th>Delete</th>
+					</tr>
+				</thead>
+				<tbody id="tBody"></tbody>
+			</table>
+		</div>
+	</div>
+	<script type="module" src="../../js/departments/departments.js" async></script>
+</body>
+
+</html>

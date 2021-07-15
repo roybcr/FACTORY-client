@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="FACTORY project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="FACTORY | Add Shift">
+	<meta property="og:type" content="website">
+	<link rel="stylesheet" href="../../css/normalize.css">
+	<link rel="stylesheet" href="../../css/main.css">
+	<meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+	<div class="app">
+		<header>
+			<div class="navbar">
+				<h4 id="nameDisplay"></h4>
+				<button class="primaryButton" type="button" style="width: 120px;" id="logoutButton"> Logout
+				</button>
+			</div>
+		</header>
+		<form>
+			<div class="fieldContainer">
+				<input placeholder="First Name" id="start" class="container__input" spellcheck="false"
+					autocomplete="off" type="time" required />
+				<label class="container__label">Start</label>
+			</div>
+			<div class="fieldContainer">
+				<input placeholder="Last Name" id="end" class="container__input" spellcheck="false"
+					autocomplete="off" type="time" required />
+				<label class="container__label">End</label>
+			</div>
+			<div class="fieldContainer">
+				<input placeholder="Start Work Year" id="date" class="container__input" spellcheck="false"
+					autocomplete="off" type="date" required />
+				<label class="container__label">Date</label>
+			</div>
+			<div class="fieldContainer">
+				<input value="Add" class="primarybtn" type="button" id="addShiftBtn" />
+			</div>
+		</form>
+	</div>
+	<script type="module" src="../../js/shifts/addShift.js" async></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="FACTORY project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="FACTORY | Shifts">
+	<meta property="og:type" content="website">
+	<link rel="stylesheet" href="../../css/normalize.css">
+	<link rel="stylesheet" href="../../css/main.css">
+	<meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+	<div class="app">
+		<header>
+			<div class="navbar">
+				<h4 id="nameDisplay"></h4>
+				<button class="primaryButton" type="button" style="width: 120px;" id="logoutButton"> Logout
+				</button>
+			</div>
+		</header>
+		<div style="margin-top: 200px">
+			<div style="width: 100%">
+				<button id="addShift" type="button" style="width: 228px; margin-left: auto"> Add Shift
+				</button>
+			</div>
+			<table id="shiftTable">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Time</th>
+						<th>Date</th>
+						<th>Employees</th>
+					</tr>
+				</thead>
+				<tbody id="tBody"></tbody>
+			</table>
+		</div>
+	</div>
+	<script type="module" src="../../js/shifts/shifts.js" async></script>
+</body>
+
+</html>

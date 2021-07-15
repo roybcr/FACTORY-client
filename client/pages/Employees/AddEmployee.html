@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="FACTORY project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="FACTORY | Add Employee">
+	<meta property="og:type" content="website">
+	<link rel="stylesheet" href="../../css/normalize.css">
+	<link rel="stylesheet" href="../../css/main.css">
+	<meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+	<div class="app">
+		<header>
+			<div class="navbar">
+				<h4 id="nameDisplay"></h4>
+				<button class="primaryButton" type="button" style="width: 120px;" id="logoutButton"> Logout
+				</button>
+			</div>
+		</header>
+		<form>
+			<div class="fieldContainer">
+				<input placeholder="First Name" id="first" class="container__input" spellcheck="false"
+					autocomplete="off" type="text" required />
+				<label class="container__label">First Name</label>
+			</div>
+			<div class="fieldContainer">
+				<input placeholder="Last Name" id="last" class="container__input" spellcheck="false"
+					autocomplete="off" type="text" required />
+				<label class="container__label">Last Name</label>
+			</div>
+			<div class="fieldContainer">
+				<input placeholder="Start Work Year" id="swy" class="container__input" spellcheck="false"
+					autocomplete="off" type="text" required />
+				<label class="container__label">Start Work Year</label>
+			</div>
+			<div class="fieldContainer">
+				<label for="list">Department ID:</label>
+				<select id="list" name="list"></select>
+			</div>
+			<div class="fieldContainer">
+				<input value="Add" class="primarybtn" type="button" id="addEmpBtn" />
+			</div>
+		</form>
+	</div>
+	<script type="module" src="../../js/employees/addEmployee.js" async></script>
+</body>
+
+</html>
